@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Climbing Gym Tycoon</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+	<header class="top">
+		<a href="index.html"><h1>Climbing Gym Tycoon</h1></a>
+		<p class="tag">Privacy policy</p>
+	</header>
+	<main>
+		<p class="updated">Last updated: 16 August 2026.</p>
+		<p>Climbing Gym Tycoon is made by one person. This policy says what the app does with information, written against what the build actually contains rather than from a template — if a sentence here is ever untrue of the shipped app, that is a bug and I would like to be told about it.</p>
+		<h2>The short version</h2>
+		<p><strong>The app collects nothing about you and sends nothing anywhere.</strong> Your gym is saved on your own device. There are no accounts, no sign-in, no analytics, no advertising identifier, and no tracking of any kind.</p>
+		<h2>What is stored, and where</h2>
+		<table>
+			<tr><th>What</th><th>Where it lives</th><th>Who can see it</th></tr>
+			<tr><td>Your gym — its name, its walls, its money, its staff, its progress</td><td>On your device, in the app's own storage</td><td>You. It is not uploaded</td></tr>
+			<tr><td>Your settings — sound, music, whether the street is drawn, whether the game explains things, whether the lock-screen notices are on</td><td>On your device, in the app's own settings file</td><td>You</td></tr>
+			<tr><td>Whether you have read the "early build" note, and whether the game has asked you for a rating</td><td>On your device, with the settings</td><td>You</td></tr>
+		</table>
+		<p>Deleting the app deletes all of it. There is no copy anywhere else, which also means there is no way for me to restore a gym you have lost.</p>
+		<h2>Notifications</h2>
+		<p>If you allow them, the app schedules <strong>local</strong> notifications — a wall you asked for is finished, a competition you booked has started. They are created on your device by your device. Nothing is sent to a server, and no push service is involved. You can turn them off in the app's settings or in iOS Settings, and the app never asks twice.</p>
+		<h2>Purchases</h2>
+		<p>If you buy gems, the purchase is handled by <strong>Apple</strong>, through the App Store. The app is told which product was bought so it can give you the gems; it never sees your name, your email or your payment details, and it does not store a purchase history anywhere but on your own device. Apple's own privacy policy covers what Apple does with the transaction.</p>
+		<h2>Advertising</h2>
+		<p>The app shows <strong>no advertising</strong> in the form you are used to: no banners, no interstitials, nothing on launch and nothing between screens.</p>
+		<p>If a rewarded video is offered in a future version — one you press for, in exchange for something in the game — it will be configured for <strong>non-personalised ads</strong>, which means the ad network is not permitted to build a profile of you or use an advertising identifier for tracking. The app would still show no ad you did not ask for, and declining would leave the whole game playable. Until that ships, there is no ad network in the build at all.</p>
+		<h2>Tracking</h2>
+		<p><strong>None.</strong> The app's <code>PrivacyInfo.xcprivacy</code> manifest declares <code>NSPrivacyTracking = false</code>, and an automated check in the repository fails the build if a tracking or advertising SDK is added while that declaration says otherwise. The app does not ask for App Tracking Transparency permission, because it has nothing to ask for.</p>
+		<p>The manifest also declares three ordinary APIs the app uses for their ordinary reasons: file timestamp and disk space (saving your gym) and system boot time (working out how long the app was closed, so the gym can catch up).</p>
+		<h2>Children</h2>
+		<p>The app is a business-building game with no chat, no user-generated content, no social features and no way for players to reach each other. It collects nothing from anyone, of any age.</p>
+		<h2>Feedback, and the data in it</h2>
+		<p>If you send feedback, I receive whatever you choose to put in the message. Please do not include anything you would not want me to have. I use it to fix and improve the game, and nothing else.</p>
+		<h2>Changes</h2>
+		<p>If this policy changes, the date at the top changes with it, and the version in the app's own repository is the authoritative one.</p>
+		<h2>Contact</h2>
+		<p>Feedback and privacy questions go to the same place: the feedback route inside the app, on the settings screen.</p>
+	</main>
+	<footer>
+		<a href="index.html">Home</a> · <a href="privacy.html">Privacy</a> · <a href="support.html">Support</a>
+	</footer>
+</div>
+</body>
+</html>
